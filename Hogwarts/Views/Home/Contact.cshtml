@@ -1,0 +1,54 @@
+
+@using Hogwarts.Models
+@model Survey
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Home | <a href="/projects"> Projects</a> | <a href="/contact">Contact</a> </h2>
+
+    <h1>Contact Me</h1>
+    <form action="/post" method="post">
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" for="name">Name</label>
+            <input class="form-control" type="text" name="name" id="">
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" for="location">location</label>
+            <select class="form-control" name="location" id="">
+                <option value="Seattle">Seattle</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Sanfran">SanFransico</option>
+                <option value="LosAngeles">Los Angeles</option>
+            </select>    
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" for="language">favorite language</label>
+            <select class="form-control" name="language" id="">
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>                
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label" for="message">Message</label>
+            <input class="form-control" type="text" name="message" value = "" id="">
+        </div>
+        <button>Submit</button>
+        
+    </form>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Dachi Home Page";
+}
+@model Dachi
+
+<div class="text-center">
+<h2>Happiness: @Model.Happiness </h2>
+<h2>Fullness: @Model.Fullness </h2>
+<h2>Energy:@ViewBag.Energy </h2>
+<h2>Meals: @Context.Session.GetInt32("Meals")</h2>
+
+</div>
+
+    <button onclick="location.href='/feed'" role="link" data-href="/">Feed</button>
+    <button onclick="location.href='/play'" role="link" data-href="/">Play</button>
+    <button onclick="location.href='/sleep'" role="link" data-href="/">Sleep</button>
+    <button onclick="location.href='/work'" role="link" data-href="/">Work</button>

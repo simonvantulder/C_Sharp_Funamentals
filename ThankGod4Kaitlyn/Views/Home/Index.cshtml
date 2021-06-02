@@ -1,0 +1,99 @@
+﻿@* @model Survey
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    string[] locations = new string[]
+    {
+        "Seattle", "San Jose", "Dallas", "Chicago", "Online", "Burbank"
+    };
+
+    string[] languages = new string[]
+    {
+        "C#", "Python", "Java", "Javascript", "VBA"
+    };
+}
+<form action="/process" method="post">
+    <div class="form-group">
+        <span asp-validation-for="Name"></span>
+        <label for="Name">Your Name:</label>
+        <input type="text" name="Name">
+    </div>
+    <div class="form-group">
+        <label for="Location">Dojo Location:</label>
+        <select name="Location" id="">
+        @foreach(var loc in locations)
+        {
+            <option value="@loc">@loc</option>
+        }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Language">Favorite Language:</label>
+        <select name="Language" id="">
+        @foreach(var lang in languages)
+        {
+            <option value="@lang">@lang</option>
+        }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Comment">Comment (optional):</label>
+        <textarea name="Comment" id=""></textarea>
+    </div>
+    <input type="submit" value="Submit!">
+</form> *@
+
+
+@* ================================================================================== *@
+
+@model Survey
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    string[] locations = new string[]
+    {
+        "Seattle", "San Jose", "Dallas", "Chicago", "Online", "Burbank"
+    };
+
+    string[] languages = new string[]
+    {
+        "C#", "Python", "Java", "Javascript", "VBA"
+    };
+}
+<form asp-action="process" asp-controller="Home" method="post">
+    <div class="form-group">
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Name">Your Name:</label>
+        <input type="text" asp-for="Name">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Location"></span>
+        <label asp-for="Location">Dojo Location:</label>
+        <select asp-for="Location" id="">
+        @foreach(var loc in locations)
+        {
+            <option value="@loc">@loc</option>
+        }
+        </select>
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Language"></span>
+        <label asp-for="Language">Favorite Language:</label>
+        <select asp-for="Language" id="">
+        @foreach(var lang in languages)
+        {
+            <option value="@lang">@lang</option>
+        }
+        </select>
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Comment"></span>
+        <label asp-for="Comment">Comment (optional):</label>
+        <textarea asp-for="Comment" id=""></textarea>
+    </div>
+    <input type="submit" value="Submit!">
+</form>

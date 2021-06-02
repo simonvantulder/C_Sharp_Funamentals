@@ -1,0 +1,12 @@
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/bin/Debug/netcoreapp3.1/Humans.deps.json
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/bin/Debug/netcoreapp3.1/Humans.runtimeconfig.json
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/bin/Debug/netcoreapp3.1/Humans.runtimeconfig.dev.json
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/bin/Debug/netcoreapp3.1/Humans.dll
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/bin/Debug/netcoreapp3.1/Humans.pdb
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/obj/Debug/netcoreapp3.1/Humans.csprojAssemblyReference.cache
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/obj/Debug/netcoreapp3.1/Humans.AssemblyInfoInputs.cache
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/obj/Debug/netcoreapp3.1/Humans.AssemblyInfo.cs
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/obj/Debug/netcoreapp3.1/Humans.csproj.CoreCompileInputs.cache
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/obj/Debug/netcoreapp3.1/Humans.dll
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/obj/Debug/netcoreapp3.1/Humans.pdb
+/Users/simonvantulder/Desktop/CodingDojo/C#/Humans/obj/Debug/netcoreapp3.1/Humans.genruntimeconfig.cache

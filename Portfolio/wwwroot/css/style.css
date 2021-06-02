@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: auto;
+    width: 970px;
+}
+img{
+    width: 100px;
+}
+.about{
+    margin-left: 200px;
+}
+.box{
+    border: 2px solid black;
+    padding: 55px;
+}
+.group{
+    display: flex;
+}
+.padL{
+    padding-left: 20px;
+}

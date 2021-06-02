@@ -1,0 +1,12 @@
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/bin/Debug/netcoreapp3.1/DeckOCards.deps.json
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/bin/Debug/netcoreapp3.1/DeckOCards.runtimeconfig.json
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/bin/Debug/netcoreapp3.1/DeckOCards.runtimeconfig.dev.json
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/bin/Debug/netcoreapp3.1/DeckOCards.dll
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/bin/Debug/netcoreapp3.1/DeckOCards.pdb
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/obj/Debug/netcoreapp3.1/DeckOCards.csprojAssemblyReference.cache
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/obj/Debug/netcoreapp3.1/DeckOCards.AssemblyInfoInputs.cache
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/obj/Debug/netcoreapp3.1/DeckOCards.AssemblyInfo.cs
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/obj/Debug/netcoreapp3.1/DeckOCards.csproj.CoreCompileInputs.cache
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/obj/Debug/netcoreapp3.1/DeckOCards.dll
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/obj/Debug/netcoreapp3.1/DeckOCards.pdb
+/Users/simonvantulder/Desktop/CodingDojo/C#/DeckOCards/obj/Debug/netcoreapp3.1/DeckOCards.genruntimeconfig.cache
